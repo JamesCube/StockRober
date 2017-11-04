@@ -1,0 +1,55 @@
+//
+//  PrefixHeader.pch
+//  Xcode
+//
+//  Created by Hanxun on 16/12/15.
+//  Copyright © 2016年 Hanxun. All rights reserved.
+//
+
+/*
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+ 
+*/
+
+
+#ifdef __OBJC__
+
+
+
+// 头文件
+//#import "AFNetworkingHeader.h"
+//#import "PubicHeader.h"
+
+
+// pods 头文件
+#import <Masonry.h>
+#import <MJRefresh.h>
+#import <AFNetworking/AFNetworking.h>
+#import <RDVTabBarController/RDVTabBarController.h>
+#import <RDVTabBarController/RDVTabBar.h>
+#import <RDVTabBarController/RDVTabBarItem.h>
+
+
+// 高德地图
+//#import <AMap3DMap-NO-IDFA/MAMapKit/MAMapKit.h>
+//#import <AMapFoundation-NO-IDFA/AMapFoundationKit/AMapFoundationKit.h>
+//#import <AMapNavi-NO-IDFA/AMapNaviKit/AMapNaviKit.h>
+
+
+
+#endif
+
+
+
+
+
+
+
+
